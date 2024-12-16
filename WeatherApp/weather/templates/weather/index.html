@@ -46,7 +46,30 @@
             </div>
         </div>
     </div>
-
     
 </body>
+    <style>
+
+    .row {
+        display:flex;
+    }
+
+    @media(width<=720px) {
+
+        .row {
+            flex-direction: column;
+            gap:20px;
+        }
+
+        .col-5 {
+            max-width:100%;
+        }
+
+        .offset-1 {
+            margin-left: 0px;
+        }
+    }
+
+</style>
+    
 </html>
